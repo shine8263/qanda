@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="titlebar_bg">#222222</color>
+    <color name="select_agodefault">#969fa5</color><!-- 黑灰 -->
+    <color name="select_default">#DBDEE5</color><!-- 亮灰 -->
+    <color name="select_right">#48daa9</color><!-- 浅绿 -->
+    <color name="select_error">#eb6161</color><!-- 红 -->
+    <color name="select_select">#c6c6c6</color><!-- 暗灰 -->
+    <color name="select_answered">#60adde</color><!-- 天蓝 -->
+    <color name="right_answer">#009100</color><!-- 绿 -->
+</resources>

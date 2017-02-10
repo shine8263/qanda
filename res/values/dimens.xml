@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- 所有标题栏大小 -->
+    <dimen name="comm_titlebar_height">48dip</dimen>
+    <!-- 返回和保存字体的大小 -->
+    <dimen name="comm_titlebar_backAndSaveTextSize">18sp</dimen>
+    <!-- 所有标题栏中间的字体的大小 -->
+    <dimen name="comm_titlebar_centerTextSize">20sp</dimen>
+
+</resources>

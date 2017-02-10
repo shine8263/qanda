@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/comm_titlebar_height" >
+
+    <LinearLayout
+        android:id="@+id/titlebar_left_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:padding="5dip" >
+
+        <TextView
+            android:id="@+id/titlebar_left_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/ic_titlebar_back"
+            android:gravity="center_vertical"
+            android:text="返回"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/comm_titlebar_backAndSaveTextSize" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/titlebar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/comm_titlebar_centerTextSize" />
+
+    <TextView
+        android:id="@+id/titlebar_right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:padding="5dip"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/comm_titlebar_backAndSaveTextSize" />
+
+</RelativeLayout>
